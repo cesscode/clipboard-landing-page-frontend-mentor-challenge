@@ -1,0 +1,814 @@
+/* ************** LINK TO GOGGLE FONT************************** */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap");
+
+/* *********** RESET STYLING ******************* */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-button-color: hsl(171, 66%, 44%);
+  --second-button-color: hsl(233, 100%, 69%);
+  --unknown-for-now: hsl(210, 10%, 33%);
+  --background-footer-color: hsl(201, 11%, 66%);
+}
+
+/* ************* TYPOGRAPHY ********************* */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Bai Jamjuree;
+}
+
+/* *************HEADER SECTION*************************** */
+.header-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.header-section {
+  background-image: url("images/bg-header-desktop.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.header-paragraph-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-paragraph-section > h1 {
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.header-paragraph-section > p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.9em;
+}
+
+.second-paragraph-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-paragraph-header > h1 {
+  font-size: 2.2rem;
+  margin-top: 2.5em;
+  margin-bottom: 0.7em;
+  font-weight: 600;
+}
+
+.second-paragraph-header > p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.9em;
+}
+
+/* BUTTON */
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-button > .first-button {
+  width: 200px;
+  font-size: 0.9rem;
+  padding: 1.1em;
+  border: none;
+  border-radius: 35px;
+  background-color: var(--first-button-color);
+  color: #ffffff;
+}
+
+.header-button > .second-button {
+  width: 200px;
+  font-size: 0.9rem;
+  padding: 1.1em;
+  border: none;
+  border-radius: 35px;
+  color: #ffffff;
+  background-color: var(--second-button-color);
+}
+
+/* *************** MAIN SECTION ************************** */
+.first-main-section {
+  display: flex;
+  gap: 70px;
+}
+
+.main-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.first-main-section-container > h2 {
+  margin-bottom: 0.6em;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.first-main-section-container > p {
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* SECOND MAIN SECTION */
+.second-main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-main-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.second-main-section-container > h2 {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.second-main-section-container > p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 3.2em;
+}
+
+.second-main-section-container-one {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-main-section-container-one > h2 {
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.second-main-section-container-one > p {
+  font-weight: 400;
+}
+
+.third-main-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 4em;
+  align-items: center;
+}
+
+.third-main-section-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-main-section-container > img {
+  margin-bottom: 2.3em;
+}
+
+.third-main-section-container > h3 {
+  margin-bottom: 0.6em;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.third-main-section-container > p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.third-main-section-container > p::after {
+  content: ".";
+}
+
+.fourth-main-section {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 5em;
+  align-items: center;
+}
+
+/* FIFTH MAIN SECTION */
+.fifth-main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth-main-section-container > h1 {
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fifth-main-section-container > p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.9em;
+}
+
+/* BUTTON */
+.fifth-main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fifth-main-button > .first-button {
+  width: 200px;
+  font-size: 0.9rem;
+  padding: 1.1em;
+  border: none;
+  border-radius: 35px;
+  background-color: var(--first-button-color);
+  color: #ffffff;
+}
+
+.fifth-main-button > .second-button {
+  width: 200px;
+  font-size: 0.9rem;
+  padding: 1.1em;
+  border: none;
+  border-radius: 35px;
+  color: #ffffff;
+  background-color: var(--second-button-color);
+}
+
+/* FOOTER */
+.footer-area {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5em;
+  padding: 3em;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo > img {
+  width: 40%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400;
+  line-height: 1.9;
+}
+.footer-links > ul > a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links > ul > a > li {
+  list-style-type: none;
+}
+
+.footer-svg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ***************** MEDIA QUERY*************************** */
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --first-button-color: hsl(171, 66%, 44%);
+    --second-button-color: hsl(233, 100%, 69%);
+    --unknown-for-now: hsl(210, 10%, 33%);
+    --background-footer-color: hsl(201, 11%, 66%);
+  }
+
+  /* ************* TYPOGRAPHY ********************* */
+
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    font-family: Bai Jamjuree;
+  }
+
+  .first-main-section {
+    display: flex;
+    gap: 40px;
+  }
+
+  .first-main-section-container > h2 {
+    margin-bottom: 0.6em;
+    font-size: 27.2px;
+    font-weight: 600;
+  }
+
+  .first-main-section-container > p {
+    line-height: 2.2;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .third-main-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4em;
+    align-items: start;
+  }
+
+  .third-main-section-container > p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2.6;
+  }
+
+  .fourth-main-section {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 5em;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap");
+
+  :root {
+    --first-button-color: hsl(171, 66%, 44%);
+    --second-button-color: hsl(233, 100%, 69%);
+    --unknown-for-now: hsl(210, 10%, 33%);
+    --background-footer-color: hsl(201, 11%, 66%);
+  }
+
+  /* ************* TYPOGRAPHY ********************* */
+
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    font-family: Bai Jamjuree;
+  }
+
+  .header-paragraph-section > h1 {
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  .header-paragraph-section > p {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1.9em;
+  }
+
+  .second-paragraph-header > p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1.9em;
+  }
+
+  .first-main-section {
+    display: flex;
+    gap: 45px;
+  }
+
+  .first-main-section-container > h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .first-img {
+    width: 350px;
+  }
+
+  .first-main-section-container > p {
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 2em;
+    font-size: 0.7rem;
+  }
+
+  .second-main-section-container > p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 3.2em;
+  }
+
+  .third-main-section {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 4em;
+    align-items: start;
+  }
+
+  .third-main-section-container > h3 {
+    margin-bottom: 0.6em;
+    font-weight: 600;
+    font-size: 27.2px;
+  }
+
+  .third-main-section-container > h3 {
+    margin-bottom: 0.6em;
+    font-weight: 600;
+    font-size: 1.2625rem;
+  }
+
+  .third-main-section-container > p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.7;
+  }
+
+  .fourth-main-section {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 5em;
+    align-items: center;
+  }
+
+  .fourth-img {
+    width: 83px;
+  }
+
+  .fifth-main-section-container > h1 {
+    margin-top: 3.4em;
+    margin-bottom: 0.5em;
+    font-size: 1.55rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .fifth-main-section-container > p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1.9em;
+  }
+
+  .footer-area {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5em;
+    padding: 3em;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap");
+
+  :root {
+    --first-button-color: hsl(171, 66%, 44%);
+    --second-button-color: hsl(233, 100%, 69%);
+    --unknown-for-now: hsl(210, 10%, 33%);
+    --background-footer-color: hsl(201, 11%, 66%);
+  }
+
+  /* ************* TYPOGRAPHY ********************* */
+
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    font-family: Bai Jamjuree;
+  }
+
+  .header-section {
+    background-image: url("images/bg-header-mobile.png");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .header-logo-svg > img {
+    margin-top: 4em;
+  }
+
+  .header-paragraph-section > h1 {
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    font-size: 1.4rem;
+    width: 65%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .header-paragraph-section > p {
+    font-weight: 400;
+    width: 72%;
+    font-size: 0.86rem;
+    text-align: center;
+    margin-bottom: 1.9em;
+  }
+
+  .header-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 0.8em;
+  }
+
+  /* BUTTON */
+  .header-button > .first-button {
+    width: 250px;
+    font-size: 0.9rem;
+    padding: 1.1em;
+    border: none;
+    border-radius: 35px;
+    background-color: var(--first-button-color);
+    color: #ffffff;
+  }
+
+  .header-button > .second-button {
+    width: 250px;
+    font-size: 0.9rem;
+    padding: 1.1em;
+    border: none;
+    border-radius: 35px;
+    color: #ffffff;
+    background-color: var(--second-button-color);
+  }
+
+  .second-paragraph-header > h1 {
+    font-size: 1.7rem;
+    width: 75%;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 0.7em;
+    font-weight: 600;
+  }
+
+  .second-paragraph-header > p {
+    font-weight: 400;
+    width: 84%;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1.9em;
+  }
+
+  /* ****************** MAIN ***************************** */
+  .first-main-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .main-first-picture > img {
+    width: 70%;
+    margin-left: 2.7em;
+  }
+
+  .first-main-section-container > h2 {
+    margin-bottom: 0.6em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .first-main-section-container > p {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 262px;
+    margin-bottom: 2em;
+  }
+
+  .second-main-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+  }
+
+  .second-main-section-container > h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  .second-main-section-container > p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 82%;
+    line-height: 1.6;
+    margin-bottom: 3.2em;
+  }
+
+  .main-second-picture > img {
+    width: 75%;
+    margin-left: 2.5em;
+  }
+
+  .second-main-section-container-one > h2 {
+    margin-bottom: 0.5em;
+    margin-top: 1.8em;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    width: 65%;
+    text-transform: capitalize;
+  }
+
+  .second-main-section-container-one > p {
+    text-align: center;
+    width: 52%;
+    font-size: 0.8rem;
+  }
+
+  .third-main-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 4em;
+    align-items: center;
+  }
+
+  .third-main-section-container > h3 {
+    margin-bottom: 0.6em;
+    font-weight: 600;
+    text-align: center;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .third-main-section-container > p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+
+  .fourth-main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 10em;
+    align-items: center;
+  }
+
+  .fifth-main-section-container > h1 {
+    margin-top: 3.4em;
+    margin-bottom: 0.5em;
+    width: 86%;
+    margin-left: 0.4em;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .fifth-main-section-container > p {
+    margin-right: 1.5em;
+    margin-left: 0.9rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    /* background: red; */
+    line-height: 1.5;
+    width: 89%;
+    text-align: center;
+    margin-bottom: 1.9em;
+  }
+
+  .fifth-main-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .fifth-main-button > .first-button {
+    width: 250px;
+    font-size: 0.9rem;
+    padding: 1.1em;
+    border: none;
+    border-radius: 35px;
+    background-color: var(--first-button-color);
+    color: #ffffff;
+  }
+
+  .fifth-main-button > .second-button {
+    width: 250px;
+    font-size: 0.9rem;
+    padding: 1.1em;
+    border: none;
+    border-radius: 35px;
+    color: #ffffff;
+    background-color: var(--second-button-color);
+  }
+
+  /* FOOTER */
+  .footer-area {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5em;
+    padding: 3em;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.9;
+  }
+
+  .first-link {
+    text-align: center;
+  }
+}
